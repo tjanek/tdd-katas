@@ -3,6 +3,7 @@
 build/
 
 # IDEA
+.idea/
 *.iws
 *.ipr
 *.iml
