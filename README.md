@@ -1,1 +1,1 @@
-# tdd-katas
+# Some katas using Groovy and Spock
