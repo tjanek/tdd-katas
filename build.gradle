@@ -1,11 +1,13 @@
-apply plugin: "groovy"
+allprojects {
+    apply plugin: "groovy"
 
-repositories {
-    mavenCentral()
-    maven { url "http://oss.sonatype.org/content/repositories/snapshots/" }
-}
+    repositories {
+        mavenCentral()
+        maven { url "http://oss.sonatype.org/content/repositories/snapshots/" }
+    }
 
-dependencies {
-    compile "org.codehaus.groovy:groovy-all:2.3.9"
-    testCompile "org.spockframework:spock-core:1.0-groovy-2.3-SNAPSHOT"
+    dependencies {
+        compile "org.codehaus.groovy:groovy-all:2.3.9"
+        testCompile "org.spockframework:spock-core:1.0-groovy-2.3-SNAPSHOT"
+    }
 }
