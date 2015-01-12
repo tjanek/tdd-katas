@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/kata-01-build-version-comparator" />
-            <option value="$PROJECT_DIR$/kata02-fizzbuzz" />
+            <option value="$PROJECT_DIR$/kata-02-fizzbuzz" />
           </set>
         </option>
       </GradleProjectSettings>
