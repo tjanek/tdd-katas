@@ -22,3 +22,9 @@ Program that prints the numbers from 1 to 100.
 Instead of numbers for multiples of three prints "Fizz", for the multiples of five prints "Buzz"
 and for multiples of both three and five prints "FizzBuzz".
   
+Anagrams Kata
+-------------
+
+[http://codekata.com/kata/kata06-anagrams/](http://codekata.com/kata/kata06-anagrams/)
+
+Find the longest words that are anagrams, and find the set of anagrams containing the most words
