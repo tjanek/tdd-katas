@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/kata-01-build-version-comparator" />
             <option value="$PROJECT_DIR$/kata-02-fizzbuzz" />
             <option value="$PROJECT_DIR$/kata-03-anagrams" />
+            <option value="$PROJECT_DIR$/kata-04-string-calculator" />
           </set>
         </option>
       </GradleProjectSettings>
