@@ -12,10 +12,10 @@
             <option value="$PROJECT_DIR$/kata-02-fizzbuzz" />
             <option value="$PROJECT_DIR$/kata-03-anagrams" />
             <option value="$PROJECT_DIR$/kata-04-string-calculator" />
+            <option value="$PROJECT_DIR$/kata-05-bowling-game" />
           </set>
         </option>
       </GradleProjectSettings>
     </option>
   </component>
 </project>
-
