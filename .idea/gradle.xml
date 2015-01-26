@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/kata-03-anagrams" />
             <option value="$PROJECT_DIR$/kata-04-string-calculator" />
             <option value="$PROJECT_DIR$/kata-05-bowling-game" />
+            <option value="$PROJECT_DIR$/kata-06-java-code-line-counter" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,3 +1,9 @@
-include 'kata-01-build-version-comparator', 'kata-02-fizzbuzz', 'kata-03-anagrams', 'kata-04-string-calculator', 'kata-05-bowling-game'
-
 rootProject.name = 'tdd-katas'
+
+include 'kata-01-build-version-comparator'
+include 'kata-02-fizzbuzz'
+include 'kata-03-anagrams'
+include 'kata-04-string-calculator'
+include 'kata-05-bowling-game'
+include 'kata-06-java-code-line-counter'
+
