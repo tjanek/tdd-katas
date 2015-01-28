@@ -1,6 +1,7 @@
 
-/**
- * Created by Tomek on 26.01.2015.
- */
 class CodeLineCounter {
+    int count(String...lines) {
+        // TODO: Implement me
+        throw new RuntimeException()
+    }
 }
