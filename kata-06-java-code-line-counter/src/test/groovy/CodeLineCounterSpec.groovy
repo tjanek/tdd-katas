@@ -29,7 +29,7 @@ class CodeLineCounterSpec extends Specification {
         codeLineCounter.count(" /* comment */ ") == 0
     }
 
-    def "should not count for two commented blocks in many lines"() {
+    def "should not count for commented blocks in many lines"() {
         expect:
         codeLineCounter.count(
             " /** ",
