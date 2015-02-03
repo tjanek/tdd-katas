@@ -86,3 +86,9 @@ Roman Numerals Kata
 
 Convert Arabic numbers ( 1, 2, 3, 4, 5, etc.) into Roman equivalents: I, II, III, IV, V, etc.
 
+Prime Factors Kata
+------------------
+
+Write a class named "PrimeFactors" that has one static method: generate.
+The generate method takes an integer argument and returns a collection of integers. That list
+contains the prime factors in numerical sequence.
