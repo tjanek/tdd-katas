@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/kata-05-bowling-game" />
             <option value="$PROJECT_DIR$/kata-06-java-code-line-counter" />
             <option value="$PROJECT_DIR$/kata-07-roman-numerals" />
+            <option value="$PROJECT_DIR$/kata-08-prime-factors" />
           </set>
         </option>
       </GradleProjectSettings>

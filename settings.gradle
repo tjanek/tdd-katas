@@ -7,4 +7,5 @@ include 'kata-04-string-calculator'
 include 'kata-05-bowling-game'
 include 'kata-06-java-code-line-counter'
 include 'kata-07-roman-numerals'
+include 'kata-08-prime-factors'
 
