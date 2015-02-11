@@ -109,3 +109,13 @@ by the value of that cell and its neighbors in the previous generation using the
 * Otherwise, the cell’s value will not be changed.
 
 For more information see the [Wikipedia](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) article.
+
+
+OddEven Kata
+-------------
+
+For a specified range of numbers, eg. from 1 to 100:
+
+* if number is odd, print 'Odd' instead of the number  
+* if number is even, print 'Even' instead of number
+* else if number is Prime, print number
