@@ -9,4 +9,5 @@ include 'kata-06-java-code-line-counter'
 include 'kata-07-roman-numerals'
 include 'kata-08-prime-factors'
 include 'kata-09-game-of-life'
+include 'kata-10-odd-even'
 
