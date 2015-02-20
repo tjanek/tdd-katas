@@ -58,4 +58,28 @@ class RomanNumeralsConverterSpecs extends Specification {
         36           | "XXXVI"
         39           | "XXXIX"
     }
+
+    @Unroll()
+    def "should convert numbers of tens and hundreds arabic number #arabicNumber to roman equivalent #romanNumber"() {
+
+        expect:
+        romanNumeralsConverter.arabicToRoman(arabicNumber) == romanNumber
+
+        where:
+        arabicNumber | romanNumber
+        60           | "LX"
+        70           | "LXX"
+        80           | "LXXX"
+        101          | "CI"
+        150          | "CL"
+        200          | "CC"
+        300          | "CCC"
+        600          | "DC"
+        700          | "DCC"
+        800          | "DCCC"
+        1600         | "MDC"
+        1700         | "MDCC"
+        1900         | "MCM"
+    }
+
 }
