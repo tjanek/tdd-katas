@@ -6,7 +6,7 @@ class RomanNumeralsConverterSpecs extends Specification {
     RomanNumeralsConverter romanNumeralsConverter = new RomanNumeralsConverter()
 
     @Unroll()
-    def "should convert some basics arabic number #arabicNumber to roman equivalent #romanNumber"() {
+    def "should convert some basics numbers: arabic number #arabicNumber to roman equivalent #romanNumber"() {
 
         expect:
         romanNumeralsConverter.arabicToRoman(arabicNumber) == romanNumber
@@ -34,7 +34,7 @@ class RomanNumeralsConverterSpecs extends Specification {
     }
 
     @Unroll()
-    def "should convert numbers from eleven to forty arabic number #arabicNumber to roman equivalent #romanNumber"() {
+    def "should convert numbers from eleven to forty: arabic number #arabicNumber to roman equivalent #romanNumber"() {
 
         expect:
         romanNumeralsConverter.arabicToRoman(arabicNumber) == romanNumber
@@ -60,7 +60,7 @@ class RomanNumeralsConverterSpecs extends Specification {
     }
 
     @Unroll()
-    def "should convert numbers of tens and hundreds arabic number #arabicNumber to roman equivalent #romanNumber"() {
+    def "should convert numbers of tens and hundreds: arabic number #arabicNumber to roman equivalent #romanNumber"() {
 
         expect:
         romanNumeralsConverter.arabicToRoman(arabicNumber) == romanNumber
