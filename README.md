@@ -119,3 +119,9 @@ For a specified range of numbers, eg. from 1 to 100:
 * if number is odd, print 'Odd' instead of the number  
 * if number is even, print 'Even' instead of number
 * else if number is Prime, print number
+
+Tic Tac Toe Kata
+----------------
+
+Tic-tac-toe is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid.
+The player who succeeds in placing three respective marks in a horizontal, vertical, or diagonal row wins the game.
