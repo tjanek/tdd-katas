@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/kata-08-prime-factors" />
             <option value="$PROJECT_DIR$/kata-09-game-of-life" />
             <option value="$PROJECT_DIR$/kata-10-odd-even" />
+            <option value="$PROJECT_DIR$/kata-11-tic-tac-toe" />
           </set>
         </option>
       </GradleProjectSettings>
