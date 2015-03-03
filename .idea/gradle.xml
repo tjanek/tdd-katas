@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/kata-09-game-of-life" />
             <option value="$PROJECT_DIR$/kata-10-odd-even" />
             <option value="$PROJECT_DIR$/kata-11-tic-tac-toe" />
+            <option value="$PROJECT_DIR$/kata-12-tennis-game" />
           </set>
         </option>
       </GradleProjectSettings>
