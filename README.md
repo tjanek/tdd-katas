@@ -140,13 +140,3 @@ If a player has 40 and scores again that player wins the game as long as the oth
  
 Scoring during deuce gives a player advantage. If the other player scores again the score returns to deuce.
 If a player has advantage and scores again, that player wins the game.
- 
-
-Tic Tac Toe Kata
-----------------
-
-Tic-tac-toe is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid.
-The player who succeeds in placing three respective marks in a horizontal, vertical, or diagonal row wins the game.
-
-For more information see the [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) article.
-
