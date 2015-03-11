@@ -1,6 +1,10 @@
 
 class TicTacToe {
 
+    enum Markers {
+        BLANK, CIRCLE, CROSS
+    }
+
     def markAsCircleAt(int x, int y) {
 
     }
