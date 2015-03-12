@@ -13,7 +13,11 @@ class TicTacToe {
 
     }
 
-    boolean markedAsCross(int x, int y) {
+    def markAsCrossAt(int x, int y) {
+
+    }
+
+    def markedAsCross(int x, int y) {
 
     }
 }
