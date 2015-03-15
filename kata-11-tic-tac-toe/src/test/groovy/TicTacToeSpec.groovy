@@ -12,7 +12,6 @@ class TicTacToeSpec extends Specification {
         ticTacToe.markedAsCircle(x, y) == true
         ticTacToe.markedAsCross(x, y) == false
 
-
         where:
         x | y
         0 | 0
@@ -33,7 +32,6 @@ class TicTacToeSpec extends Specification {
         then:
         ticTacToe.markedAsCross(x, y) == true
         ticTacToe.markedAsCircle(x, y) == false
-
 
         where:
         x | y
