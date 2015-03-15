@@ -4,6 +4,33 @@ class TicTacToeSpec extends Specification {
 
     TicTacToe ticTacToe = new TicTacToe()
 
+    def "should finish game after three marks in columns as circle"() {
+        when:
+        ticTacToe.markAsCircleAt(0, 0)
+        ticTacToe.markAsCircleAt(1, 0)
+        ticTacToe.markAsCircleAt(2, 0)
+
+        then:
+        ticTacToe.isFinished() == true
+    }
+
+    def "should not finish game after two marks in columns as circle"() {
+        when:
+        ticTacToe.markAsCircleAt(0, 0)
+        ticTacToe.markAsCircleAt(1, 0)
+
+        then:
+        ticTacToe.isFinished() == false
+    }
+
+    def "should not finish game after one marks in columns as circle"() {
+        when:
+        ticTacToe.markAsCircleAt(0, 0)
+
+        then:
+        ticTacToe.isFinished() == false
+    }
+
     def "should mark fields as circle"() {
         when:
         ticTacToe.markAsCircleAt(x, y)

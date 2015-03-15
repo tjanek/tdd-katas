@@ -5,6 +5,10 @@ class TicTacToe {
         BLANK, CIRCLE, CROSS
     }
 
+    def isFinished() {
+
+    }
+
     def markAsCircleAt(int x, int y) {
 
     }
