@@ -31,6 +31,33 @@ class TicTacToeSpec extends Specification {
         ticTacToe.isFinished() == false
     }
 
+    def "should finish game after three marks in columns as cross"() {
+        when:
+        ticTacToe.markAsCrossAt(0, 0)
+        ticTacToe.markAsCrossAt(1, 0)
+        ticTacToe.markAsCrossAt(2, 0)
+
+        then:
+        ticTacToe.isFinished() == true
+    }
+
+    def "should not finish game after two marks in columns as cross"() {
+        when:
+        ticTacToe.markAsCrossAt(0, 0)
+        ticTacToe.markAsCrossAt(1, 0)
+
+        then:
+        ticTacToe.isFinished() == false
+    }
+
+    def "should not finish game after one marks in columns as cross"() {
+        when:
+        ticTacToe.markAsCrossAt(0, 0)
+
+        then:
+        ticTacToe.isFinished() == false
+    }
+
     def "should mark fields as circle"() {
         when:
         ticTacToe.markAsCircleAt(x, y)
