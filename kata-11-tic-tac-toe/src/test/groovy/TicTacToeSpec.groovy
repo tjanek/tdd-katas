@@ -31,6 +31,33 @@ class TicTacToeSpec extends Specification {
         ticTacToe.isFinished() == false
     }
 
+    def "should finish game after three marks in row as circle"() {
+        when:
+        ticTacToe.markAsCircleAt(0, 0)
+        ticTacToe.markAsCircleAt(0, 1)
+        ticTacToe.markAsCircleAt(0, 2)
+
+        then:
+        ticTacToe.isFinished() == true
+    }
+
+    def "should finish game after two marks in row as circle"() {
+        when:
+        ticTacToe.markAsCircleAt(0, 0)
+        ticTacToe.markAsCircleAt(0, 1)
+
+        then:
+        ticTacToe.isFinished() == false
+    }
+
+    def "should finish game after one marks in row as circle"() {
+        when:
+        ticTacToe.markAsCircleAt(0, 0)
+
+        then:
+        ticTacToe.isFinished() == false
+    }
+
     def "should finish game after three marks in columns as cross"() {
         when:
         ticTacToe.markAsCrossAt(0, 0)
@@ -51,6 +78,33 @@ class TicTacToeSpec extends Specification {
     }
 
     def "should not finish game after one marks in columns as cross"() {
+        when:
+        ticTacToe.markAsCrossAt(0, 0)
+
+        then:
+        ticTacToe.isFinished() == false
+    }
+
+    def "should finish game after three marks in row as cross"() {
+        when:
+        ticTacToe.markAsCrossAt(0, 0)
+        ticTacToe.markAsCrossAt(0, 1)
+        ticTacToe.markAsCrossAt(0, 2)
+
+        then:
+        ticTacToe.isFinished() == true
+    }
+
+    def "should not finish game after two marks in row as cross"() {
+        when:
+        ticTacToe.markAsCrossAt(0, 0)
+        ticTacToe.markAsCrossAt(0, 1)
+
+        then:
+        ticTacToe.isFinished() == false
+    }
+
+    def "should not finish game after one marks in row as cross"() {
         when:
         ticTacToe.markAsCrossAt(0, 0)
 
