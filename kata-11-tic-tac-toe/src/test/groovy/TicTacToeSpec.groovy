@@ -112,6 +112,11 @@ class TicTacToeSpec extends Specification {
         ticTacToe.isFinished() == false
     }
 
+    def "should not finish game before any marks"() {
+        expect:
+        ticTacToe.isFinished() == false
+    }
+
     def "should mark fields as circle"() {
         when:
         ticTacToe.markAsCircleAt(x, y)
