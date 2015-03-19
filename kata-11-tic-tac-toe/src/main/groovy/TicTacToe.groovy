@@ -5,6 +5,10 @@ class TicTacToe {
         BLANK, CIRCLE, CROSS
     }
 
+    def getWinner() {
+
+    }
+
     def isFinished() {
 
     }

@@ -1,5 +1,8 @@
 import spock.lang.Specification
 
+import static TicTacToe.Markers.CIRCLE
+import static TicTacToe.Markers.CROSS
+
 class TicTacToeSpec extends Specification {
 
     TicTacToe ticTacToe = new TicTacToe()
@@ -176,4 +179,25 @@ class TicTacToeSpec extends Specification {
         2 | 1
         2 | 2
     }
+
+    def "should win a game after three marks in column as cross"() {
+        when:
+        ticTacToe.markAsCrossAt(0, 0)
+        ticTacToe.markAsCrossAt(1, 0)
+        ticTacToe.markAsCrossAt(2, 0)
+
+        then:
+        ticTacToe.winner == CROSS
+    }
+
+    def "should win a game after three marks in column as circle"() {
+        when:
+        ticTacToe.markAsCircleAt(0, 0)
+        ticTacToe.markAsCircleAt(1, 0)
+        ticTacToe.markAsCircleAt(2, 0)
+
+        then:
+        ticTacToe.winner == CIRCLE
+    }
+
 }
