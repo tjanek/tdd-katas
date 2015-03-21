@@ -140,3 +140,8 @@ If a player has 40 and scores again that player wins the game as long as the oth
  
 Scoring during deuce gives a player advantage. If the other player scores again the score returns to deuce.
 If a player has advantage and scores again, that player wins the game.
+
+Percent Encoder Kata
+---------------------------------
+
+For more information see [Wikipedia](http://en.wikipedia.org/wiki/Percent-encoding) article.
