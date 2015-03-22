@@ -12,4 +12,5 @@ include 'kata-09-game-of-life'
 include 'kata-10-odd-even'
 include 'kata-11-tic-tac-toe'
 include 'kata-12-tennis-game'
+include 'kata-13-percent-encoder'
 
