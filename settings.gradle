@@ -13,4 +13,4 @@ include 'kata-10-odd-even'
 include 'kata-11-tic-tac-toe'
 include 'kata-12-tennis-game'
 include 'kata-13-percent-encoder'
-
+include 'kata-14-berlin-clock'
