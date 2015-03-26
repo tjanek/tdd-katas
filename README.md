@@ -166,6 +166,16 @@ Percent Encoder Kata
 
 For more information see [Wikipedia](http://en.wikipedia.org/wiki/Percent-encoding) article.
 
+Berlin Clock Kata
+-----------------
+
+For more information see [Wikipedia](http://en.wikipedia.org/wiki/Mengenlehreuhr) article.
+
+Percent Encoder Kata
+---------------------------------
+
+For more information see [Wikipedia](http://en.wikipedia.org/wiki/Percent-encoding) article.
+
 Percent Encoder Kata
 ---------------------------------
 
