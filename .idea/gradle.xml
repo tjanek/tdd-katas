@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/kata-11-tic-tac-toe" />
             <option value="$PROJECT_DIR$/kata-12-tennis-game" />
             <option value="$PROJECT_DIR$/kata-13-percent-encoder" />
+            <option value="$PROJECT_DIR$/kata-14-berlin-clock" />
           </set>
         </option>
       </GradleProjectSettings>
