@@ -110,7 +110,6 @@ by the value of that cell and its neighbors in the previous generation using the
 
 For more information see the [Wikipedia](http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) article.
 
-
 OddEven Kata
 -------------
 
@@ -150,31 +149,6 @@ Berlin Clock Kata
 -----------------
 
 For more information see [Wikipedia](http://en.wikipedia.org/wiki/Mengenlehreuhr) article.
-
-Percent Encoder Kata
----------------------------------
-
-For more information see [Wikipedia](http://en.wikipedia.org/wiki/Percent-encoding) article.
-
-Berlin Clock Kata
------------------
-
-For more information see [Wikipedia](http://en.wikipedia.org/wiki/Mengenlehreuhr) article.
-
-Percent Encoder Kata
----------------------------------
-
-For more information see [Wikipedia](http://en.wikipedia.org/wiki/Percent-encoding) article.
-
-Berlin Clock Kata
------------------
-
-For more information see [Wikipedia](http://en.wikipedia.org/wiki/Mengenlehreuhr) article.
-
-Percent Encoder Kata
----------------------------------
-
-For more information see [Wikipedia](http://en.wikipedia.org/wiki/Percent-encoding) article.
 
 Percent Encoder Kata
 ---------------------------------
