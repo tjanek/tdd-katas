@@ -33,4 +33,15 @@ class BerlinClockSpec extends Specification {
         expect:
         berlinClock.toBerlinTime("13:09:02").length == 5
     }
+
+    def "Seconds lamp should blink yellow on/off every two seconds"() {
+        expect:
+        berlinClock.seconds(second) == lamp
+
+        where:
+        second | lamp
+        0      | "Y"
+        1      | "O"
+        59     | "O"
+    }
 }
