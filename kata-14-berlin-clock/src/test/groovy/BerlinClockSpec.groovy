@@ -44,4 +44,28 @@ class BerlinClockSpec extends Specification {
         1      | "O"
         59     | "O"
     }
+
+    def "Top hours should light a red lamp for every 5 hours"() {
+        expect:
+        berlinClock.topHours(hour) == lamp
+
+        where:
+        hour  | lamp
+        0     | "OOOO"
+        13    | "RROO"
+        23    | "RRRR"
+        24    | "RRRR"
+    }
+
+    def "Bottom hours should light a red lamp for every hour left from top hours"() {
+        expect:
+        berlinClock.bottomHours(hour) == lamp
+
+        where:
+        hour  | lamp
+        0     | "OOOO"
+        13    | "RRRO"
+        23    | "RRRO"
+        24    | "RRRR"
+    }
 }
