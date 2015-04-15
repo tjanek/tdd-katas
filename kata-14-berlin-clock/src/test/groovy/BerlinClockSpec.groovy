@@ -68,4 +68,27 @@ class BerlinClockSpec extends Specification {
         23    | "RRRO"
         24    | "RRRR"
     }
+
+    def "Top minutes should light a yellow lamp for every 5 minutes unless it's first quarter, half or last quarter"() {
+        expect:
+        berlinClock.topMinutes(minute) == lamp
+
+        where:
+        minute | lamp
+        0      | "OOOOOOOOOOO"
+        17     | "YYROOOOOOOO"
+        59     | "YYRYYRYYRYY"
+    }
+
+    def "Top minutes should have 3rd, 6th and 9th lamps in red to indicate first quarter, half and last quarter"() {
+        expect:
+        berlinClock.topMinutes(32).substring(quarter, quarter + 1) == lamp
+
+        where:
+        quarter | lamp
+        2       | "R"
+        5       | "R"
+        8       | "O"
+    }
+
 }
