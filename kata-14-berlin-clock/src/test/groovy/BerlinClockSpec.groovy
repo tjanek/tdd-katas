@@ -91,4 +91,19 @@ class BerlinClockSpec extends Specification {
         8       | "O"
     }
 
+    def "Bottom minutes should light a yellow lamp for every minute left from top minutes"() {
+        expect:
+        berlinClock.bottomMinutes(minute) == lamp
+
+        where:
+        minute  | lamp
+        0       | "OOOO"
+        17      | "YYOO"
+        59      | "YYYY"
+    }
+
+    def "Berlin Clock should result correct berlin time in hours, minutes and seconds"() {
+        expect:
+        berlinClock.toBerlinTime("16:37:16") == ["Y", "RRRO", "ROOO", "YYRYYRYOOOO", "YYOO"]
+    }
 }
