@@ -33,4 +33,9 @@ class PercentEncoderSpec extends Specification {
         "]"          | "%5D"
         " "          | "%20"
     }
+
+    def "Encoder should encode reserved chars in URL"() {
+        expect:
+        percentEncoder.encode("http://www.test.com?p1=v1&p2=v2") == "http%3A%2F%2Fwww.test.com%3Fp1%3Dv1%26p2%3Dv2"
+    }
 }
