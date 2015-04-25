@@ -154,3 +154,8 @@ Percent Encoder Kata
 ---------------------------------
 
 For more information see [Wikipedia](http://en.wikipedia.org/wiki/Percent-encoding) article.
+
+Reverse Polish Notation Kata
+-----------------------------
+
+For more information see [Wikipedia](http://en.wikipedia.org/wiki/Reverse_Polish_notation) article.
