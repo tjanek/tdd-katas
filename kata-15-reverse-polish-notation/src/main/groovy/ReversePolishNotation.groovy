@@ -1,7 +1,8 @@
 
 class ReversePolishNotation {
 
-    static def calculate(String notation) {
-        return 0
+    static double calculate(String notation) {
+        //TODO: implement me
+        throw new RuntimeException()
     }
 }
